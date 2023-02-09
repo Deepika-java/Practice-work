@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Table Styling</title>
+	<style>
+
+		::selection {
+			background-color: orange;
+			color: white;
+		}
+		table thead tr:first-child th {
+			border: 2px solid red;
+		}
+		table thead {
+			border: 2px solid blue;
+		}
+		table thead tr th {
+			width: 50px;
+			padding: 4px;
+			border: 1px solid black;
+			margin: 0;
+		}
+		table, th, td {
+  		border: 1px solid black;
+  		border-collapse: collapse;
+
+		}
+		span{
+		background-color: blue;
+		border-radius: 70%;
+	}
+	    span:last-child{
+	    	background-color: deeppink;
+	    }
+
+	    mark {
+              background-color: pink;
+  color: black;}
+	</style>
+</head>
+<body>
+	<table>
+		<thead>
+			<tr>
+				<th colspan="9">Time Table</th>
+			</tr>
+			<tr>
+				<th>Timing</th>
+				<th>9.30</th>
+				<th>10.30</th>
+				<th>11.30</th>
+				<th>12.30</th>
+				<th>1</th>
+				<th>2</th>
+				<th>3</th>
+				<th>4</th>
+			</tr>
+			<tr>
+				<th>Period</th>
+				<th>01</th>
+				<th>02</th>
+				<th>03</th>
+				<th>04</th>
+				<th>05</th>
+				<th>06</th>
+				<th>07</th>
+				<th>08</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th>Monday</th>
+			</tr>
+			<tr>
+				<th>Tuesday</th>
+			</tr>
+			<tr>
+				<th>Wednesday</th>
+			</tr>
+			<tr>
+				<th>Thusday</th>
+			</tr>
+			<tr>
+				<th>Friday</th>
+			</tr>
+			<tr>
+				<th>Saturday</th>
+			</tr>
+
+
+
+
+		</tbody>
+		<tfoot></tfoot>
+	</table>
+
+	<span>JAYA COLLEGE OF ARTS AND SCIENCE</span><br>
+	<span>JAYA ENGINEERING COLLEGE</span>
+	<mark bgcolor>Three Idiots</mark>
+
+</body>
+</html>
+
